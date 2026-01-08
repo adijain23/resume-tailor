@@ -2,6 +2,25 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+### Resume Tailor
+
+1) Install dependencies:
+```bash
+npm install
+```
+
+2) Create `.env.local`:
+```
+OPENAI_API_KEY=your_key_here
+```
+
+3) Run the dev server:
+```bash
+npm run dev
+```
+
+Open http://localhost:3000, paste a job description, generate, then download the HTML and print to PDF.
+
 First, run the development server:
 
 ```bash
